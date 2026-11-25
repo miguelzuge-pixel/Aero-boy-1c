@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "es6"
+  },
+  "include": [
+    "*.js",
+    "**/*.js",
+    "/tmp/guest-6wyjvu/.vscode/extensions/samplavigne.p5-vscode-1.2.16/p5types/global.d.ts"
+  ]
+}

@@ -1,0 +1,45 @@
+/* =========================================
+   NEON SURVIVOR — PC E CELULAR
+========================================= */
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: #050814;
+
+  min-height: 100vh;
+  min-height: 100dvh;
+
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+canvas {
+  display: block;
+
+  width: min(100vw, 150dvh);
+  height: auto;
+
+  max-width: 100vw;
+  max-height: 100dvh;
+
+  aspect-ratio: 3 / 2;
+
+  touch-action: none;
+}
